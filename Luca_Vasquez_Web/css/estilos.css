@@ -1,0 +1,110 @@
+BODY {
+  background-color: #181818;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 130px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+  color: black;
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h4 {
+  color:white;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+span {
+  color:white;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+}
+
+.nav-item.hover a {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  margin: 18px;
+  padding: 18px;
+  transition: background-color .5s;
+}
+
+.nav-item.hover a:hover {
+  background-color: #23AB86;
+}
+
+.material-symbols-outlined {
+  font-size: 50px !important;
+  filter : brightness(100);
+}
+
+.fondoamarillo {
+  background-color: #FFF06B;
+}
+
+.fondonaranja {
+  background-color: #FC8800;
+}
+
+.fondoturquesa {
+  background-color: #23AB86;
+}
+
+.separador {
+  background-image: url(../img/separador.png);
+  background-size: cover;
+  height: 620px;
+}
+
+.separador2 {
+  background-image: url(../img/separador2.png);
+  height: 221px;
+  background-size: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 0%;
+  background-color: #181818;
+  color: white;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+div ul a.btn {
+  background-color: #181818;
+  border: none;
+  box-shadow: 5px 5px 5px #0f0f0f;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+footer{
+  color: white;
+  font-size: 14px;
+  font-family: 'Rubik', sans-serif;
+}
